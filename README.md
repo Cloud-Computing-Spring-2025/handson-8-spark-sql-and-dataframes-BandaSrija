@@ -223,9 +223,16 @@ A ranked list of the most-used hashtags and their frequencies.
 
 | Hashtag     | Count |
 |-------------|-------|
-| #tech       | 120   |
-| #mood       | 98    |
-| #design     | 85    |
+| #AI         | 15    |
+| #UX         | 20    |
+| #bug        | 23    |
+| #cleanUI    | 26    |
+| #design     | 15    |
+| #fail       | 15    |
+| #love       | 25    |
+| #mood       | 21    |
+| #social     | 13    |
+| #tech       | 27    |
 
 ---
 
@@ -247,9 +254,9 @@ A summary of user engagement behavior categorized by age group.
 
 | Age Group | Avg Likes | Avg Retweets |
 |-----------|-----------|--------------|
-| Adult     | 67.3      | 25.2         |
-| Teen      | 22.0      | 5.6          |
-| Senior    | 9.2       | 1.3          |
+| Teen      | 79.500000 | 30.388889    |
+| Senior    | 64.782609 | 28.086957    |
+| Adult     | 67.351351 | 23.729730    |
 
 ---
 
@@ -268,11 +275,12 @@ Insights into whether happier or angrier posts get more attention.
 
 **Example Output:**
 
-| Sentiment | Avg Likes | Avg Retweets |
-|-----------|-----------|--------------|
-| Positive  | 85.6      | 32.3         |
-| Neutral   | 27.1      | 10.4         |
-| Negative  | 13.6      | 4.7          |
+| SentimentCategory | Avg Likes | Avg Retweets |
+|-------------------|-----------|--------------|
+| Negative          | 66.978723 | 23.787234    |
+| Neutral           | 75.750000 | 23.375000    |
+| Positive          | 71.378378 | 28.351351    |
+
 
 ---
 
@@ -294,32 +302,11 @@ A leaderboard of verified users based on audience engagement.
 
 | Username       | Total Reach |
 |----------------|-------------|
-| @techie42      | 1650        |
-| @designer_dan  | 1320        |
+| @daily_vibes   | 1314        |
+| @rage_user     | 1055        |
+| @critic99      | 1031        |
+| @calm_mind     | 1001        |
 
 ---
 
-## **Grading Criteria**
 
-| Task                        | Marks |
-|-----------------------------|-------|
-| Hashtag Trend Analysis      | 1     |
-| Engagement by Age Group     | 1     |
-| Sentiment vs Engagement     | 1     |
-| Top Verified Users by Reach | 1     |
-| **Total**                   | **1** |
-
----
-
-## 📬 Submission Checklist
-
-- [ ] PySpark scripts in the `src/` directory  
-- [ ] Output files in the `outputs/` directory  
-- [ ] Datasets in the `input/` directory  
-- [ ] Completed `README.md`  
-- [ ] Commit everything to GitHub Classroom  
-- [ ] Submit your GitHub repo link on canvas
-
----
-
-Now go uncover the trends behind the tweets 📊🐤✨
