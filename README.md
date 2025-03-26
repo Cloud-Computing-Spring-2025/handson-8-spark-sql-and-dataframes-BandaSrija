@@ -1,5 +1,8 @@
 # handson-08-sparkSQL-dataframes-social-media-sentiment-analysis
 
+
+Look at the file handon8.ipynb to find the python code for 4 tasks along with their outputs
+
 ## **Prerequisites**
 
 Before starting the assignment, ensure you have the following software installed and properly configured on your machine:
@@ -308,5 +311,6 @@ A leaderboard of verified users based on audience engagement.
 | @calm_mind     | 1001        |
 
 ---
+
 
 
